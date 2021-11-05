@@ -92,11 +92,11 @@ A client program can use gRPC to call a method on a server application on anothe
 
 **gRPC Client : (CS441H3Client/src/main/scala/gRPCClient)**
 
-The gRPC Client sends a request to the server with the input(time - HH:MM:SS.ss) parameter and receives the response after the request is processed by the server.
+The gRPC Client sends a request to the Lambda function with the input(time - HH:MM:SS.ss) parameter and receives the response after the request is processed by the lambda function.
 
 **##gRPC Server : (CS441H3Server/src/main/scala/gRPServer)**
 
-When the request reaches the server and the input is sent to the binarySearch function (CS441H3Server/src/main/scala/BinarySearchgRPC).
+When the request reaches the lambda function and the input is sent to the binarySearch function (CS441H3Server/src/main/scala/BinarySearchgRPC).
 This function performs a binary search in the log file for the desired time.
 
 ### REST - Representational state transfer
@@ -121,13 +121,13 @@ Lower and Upper Time Interval :  9:57:55 and 9:59:55.
 1) When log messages are present between the time interval : 200 status code with the MD5 Hash Message of the log message between those time intervals.
 2) When log messages are not present between the time interval : 400 status code with No log message
 
-**## REST Client : (CS441H3Client/src/main/scala/gRPCClient)**
+**REST Client : (CS441H3Client/src/main/scala/gRPCClient)**
 
 Rest Client sends a request to the server with input time(HH:MM:SS.ss) and time interval(HH:MM:SS.ss) to retrieve log messages between the intervals.
 
 Once the server processes the request the client receives the response with MD-5 hash message if log message exist or 400 level error message if the log messages does not exist between the interval.
 
-**##gRPC Server : (CS441H3Server/src/main/scala/gRPServer)**
+**gRPC Server : (CS441H3Server/src/main/scala/gRPServer)**
 
 The input sent from the client is processed to get the "lower time interval(adding Time and Time Interval)" and "Upper Time Interval(subtracting Time and Time Interval)".
 This input is passed to the binarySearch (CS441H3Client/src/main/scala/BinarySearchRest) to find the log messages between the interval.
@@ -144,6 +144,8 @@ Performs a binary search in the log file to see if the required TimeStamp is pre
 **2) BinarySearchRest**
 
 Binary search is used to look for log entries between the upper and lower time ranges. If log entries are detected, the MD-5 hash algorithm is used to hash the log messages.
+
+Note: BinarySearch functions are written in Java
 
 ###Deployment steps - lambda, ec2, s3
 

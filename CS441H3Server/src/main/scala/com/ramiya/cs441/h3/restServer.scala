@@ -47,7 +47,7 @@ class restServer extends RequestHandler[util.Map[String, String], APIGatewayProx
   //Response Message is constructed here with status code 400 if the messages are not found between the time interval
   case class ResultMessage(body : String, headers: Map[String, String]) {
     def getHeaders: java.util.Map[String, String] = headers.asJava
-    val statusCode : Int = if(body.split(",").length == 1) 400 else 200
+    val statusCode : Int = if(body.split(",").length == 1) 404 else 200
   }
 
   }
