@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ClientTest, org.scalatest.tools.Framework$$anon$1@453004f8, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mClientTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Match Endpoint gRPC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Match Endpoint REST[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Input Time[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Input Time Interval[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 492 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClientTest[0m

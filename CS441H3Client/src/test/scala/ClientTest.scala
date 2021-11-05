@@ -24,14 +24,20 @@ class ClientTest extends AnyFlatSpec with Matchers {
     assert(restEndpoint.equals("https://t323213c5g.execute-api.us-east-2.amazonaws.com/prod/restapi"))
   }
 
-  it should "Input Time" in {
-    val inputTime: String = config.getString("clientConfig.inputTime")
-    assert(restEndpoint.equals("17:12:28.745"))
+
+  it should "Match Input Time Interval" in {
+    val inputTime: String = config.getString("clientConfig.timeInterval")
+    assert(inputTime.equals("00:00:01.000"))
   }
 
-  it should "Input Time Interval" in {
+  it should "Match Input Time" in {
+    val inputTime: String = config.getString("clientConfig.inputTime")
+    assert(inputTime.equals("17:12:28.745"))
+  }
+
+  it should "Match Input Time Interval" in {
     val inputTime: String = config.getString("clientConfig.timeInterval")
-    assert(restEndpoint.equals("00:00:01.000"))
+    assert(inputTime.equals("00:00:01.000"))
   }
 
 }
