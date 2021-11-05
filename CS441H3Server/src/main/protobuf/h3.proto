@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service logTimeFunction {
+  rpc TimeFunction(TimeData) returns (TimeResponse) {}
+}
+
+message TimeData {
+  string time = 1;
+}
+
+message TimeResponse {
+  bool result = 1;
+}

@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Desktop\CS441 - H3\src\main\protobuf\h3.proto,C:\Users\19405\Desktop\CS441 - H3\target\scala-2.13\classes\h3.proto)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Desktop\CS441 - H3\src\main\resources\application.conf,C:\Users\19405\Desktop\CS441 - H3\target\scala-2.13\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Desktop\CS441 - H3\src\main\resources\LogFileGenerator.2021-10-09.log,C:\Users\19405\Desktop\CS441 - H3\target\scala-2.13\classes\LogFileGenerator.2021-10-09.log)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Desktop\CS441 - H3\src\main\resources\LogFileGenerator.2021-10-18.log,C:\Users\19405\Desktop\CS441 - H3\target\scala-2.13\classes\LogFileGenerator.2021-10-18.log)[0m
