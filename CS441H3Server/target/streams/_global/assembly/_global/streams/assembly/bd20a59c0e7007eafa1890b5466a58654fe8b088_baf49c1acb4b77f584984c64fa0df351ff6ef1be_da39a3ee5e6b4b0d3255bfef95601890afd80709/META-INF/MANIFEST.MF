@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: scalapb-json4s
+Implementation-Version: 0.12.0
+Specification-Vendor: com.thesamet.scalapb
+Specification-Title: scalapb-json4s
+Implementation-Vendor-Id: com.thesamet.scalapb
+Specification-Version: 0.12.0
+Implementation-Vendor: com.thesamet.scalapb
+

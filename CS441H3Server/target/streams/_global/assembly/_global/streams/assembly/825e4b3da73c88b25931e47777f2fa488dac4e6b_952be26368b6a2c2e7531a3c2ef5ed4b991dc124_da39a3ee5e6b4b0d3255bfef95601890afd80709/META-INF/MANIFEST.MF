@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: util-logging
+Implementation-Version: 21.9.0
+Specification-Vendor: com.twitter
+Specification-Title: util-logging
+Implementation-Vendor-Id: com.twitter
+Specification-Version: 21.9.0
+Implementation-Vendor: com.twitter
+
