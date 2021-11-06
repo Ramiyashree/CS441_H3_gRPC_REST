@@ -3,6 +3,14 @@ package com.ramiya.cs441.h3
 import scalaj.http.{Http, HttpResponse}
 import com.google.gson.Gson
 import com.typesafe.config.{Config, ConfigFactory}
+/**
+ * rest client program invokes the AWS Lambda Function
+ *
+ * The request is sent with timeStamp and timeInterval as the input
+ * The response excpeted is MD5HashMessage if the timeStamp is present or 404 level message if the timeStamp is not present in the logFiles
+ *
+ * The endPoint and timeStamp is mentioned in the config file.
+ */
 
 object restClient  extends App {
 

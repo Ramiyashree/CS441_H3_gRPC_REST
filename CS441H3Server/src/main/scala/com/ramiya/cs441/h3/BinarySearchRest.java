@@ -18,13 +18,15 @@ import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
 import java.security.NoSuchAlgorithmException;
 
-public class BinarySearchRest {
+/**
+ * REST Binary Search performs binary search on the log file to see if the the log entries are available between the input log time intervals
+ *
+ * Input is the Time Stamp and Time Interval
+ * Ouput is MD5 HashMessage if the TimeStamp is present in the logFile and 404-level message if the TimeStamp is not present in the Log File.
+ *
+ */
 
-    public static void main(String[] args) throws Exception {
-        LocalTime time = LocalTime.parse("17:12:58.745");
-        LocalTime dT = LocalTime.parse("00:00:01.00");
-        IntervalTime(time, dT);
-    }
+public class BinarySearchRest {
 
     //Returns the log messages within the specified time interval
 

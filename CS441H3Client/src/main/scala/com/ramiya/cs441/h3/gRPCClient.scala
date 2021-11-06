@@ -4,6 +4,15 @@ import scalaj.http.{Http, HttpResponse}
 import com.typesafe.config.{Config, ConfigFactory}
 import h3.{TimeData, TimeResponse}
 
+/**
+ * gRPC client program invokes the AWS Lambda Function
+ *
+ * The request is sent with timeStamp as the input
+ * The response excpeted is true if the timeStamp is present or false if the timeStamp is not present in the logFiles
+ *
+ * The endPoint and timeStamp is mentioned in the config file.
+ */
+
 object gRPCClient  extends App {
 
   //Getting the endpoints, time and time interval from application config file

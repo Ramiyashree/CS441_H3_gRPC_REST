@@ -1,4 +1,3 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\src\main\protobuf\h3.proto,C:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\target\scala-2.13\classes\h3.proto)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\src\main\resources\application.conf,C:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\target\scala-2.13\classes\application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\src\main\resources\LogFileGenerator.2021-10-09.log,C:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\target\scala-2.13\classes\LogFileGenerator.2021-10-09.log)[0m

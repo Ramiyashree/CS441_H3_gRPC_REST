@@ -50,6 +50,7 @@ choose appropriate client : gRPC  - 1 and REST - 2
 The API is deployed using AWS API Gateway 
 
 grpcEndPoint = "https://koazj6rkt3.execute-api.us-east-2.amazonaws.com/default/grpcBinarySearch"
+
 restEndPoint = "https://t323213c5g.execute-api.us-east-2.amazonaws.com/prod/restapi"
 
 These endpoints are the API gateway of the Lambda Functions. 
@@ -75,7 +76,9 @@ Using gRPC, Client program invokes a lambda function deployed on AWS to determin
 **Input :** Time(HH:MM:SS.ss) 
 
 **Output**: 
+
 **1) YES :** If the desired timestamp is present
+
 **2) NO :** If the desired timestamp is not present
 
 A client program can use gRPC to call a method on a server application on another machine as if it were a local object, making it easier to develop distributed applications and services. This interface is implemented on the server side, and a gRPC server is used to handle client requests.
@@ -84,7 +87,7 @@ A client program can use gRPC to call a method on a server application on anothe
 
 The gRPC Client sends a request to the Lambda function with the input(time - HH:MM:SS.ss) parameter and receives the response after the request is processed by the lambda function.
 
-**##gRPC Server : (CS441H3Server/src/main/scala/gRPServer)**
+**gRPC Server : (CS441H3Server/src/main/scala/gRPServer)**
 
 When the request reaches the lambda function and the input is sent to the binarySearch function (CS441H3Server/src/main/scala/BinarySearchgRPC).
 This function performs a binary search in the log file for the desired time.
@@ -168,7 +171,7 @@ Note: BinarySearch functions are written in Java
 4) Set the handler configuration
    ```<PackageName>.<ClassName>::<HandlerFunctionName>```
 
-###Deployment steps - lambda, ec2, s3
+### Deployment steps - lambda, ec2, s3
 
 In AWS, EC2 Instances is created (Follow steps mentioned in the video) 
 
@@ -213,5 +216,3 @@ REST Client Response with Status Code as 404 if log entries are not present betw
 
 
 
-
-SNIP AND PUT THE OUTPUT BOTH TERMINAL AND CLOUD WATCH

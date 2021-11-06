@@ -9,6 +9,14 @@ import scala.concurrent.duration._
 import h3.{TimeData, TimeResponse, logTimeFunctionGrpc}
 import scala.language.postfixOps
 
+/**
+ * GRPC Lambda Function responds to the request raised by the client. The timestamp recieved is passed to the binarySearchFunction
+ *
+ * Input is the Time Stamp
+ * Ouput is true if the TimeStamp is present in the logFile and false if the TimeStamp is not present in the Log File.
+ *
+ */
+
 class gRPCServer extends RequestHandler[APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent] {
 
   //gRPC Server Lambda Function

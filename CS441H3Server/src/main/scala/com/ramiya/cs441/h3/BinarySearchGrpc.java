@@ -14,8 +14,15 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class BinarySearchGrpc {
+/**
+ * GRPC Binary Search performs binary search on the log file to see if the the timeStamp is present or not
+ *
+ * Input is the Time Stamp
+ * Ouput is true if the TimeStamp is present in the logFile and false if the TimeStamp is not present in the Log File.
+ *
+ */
 
+public class BinarySearchGrpc {
 
     // Function to find if a specific time is present in the log file are not
     public static boolean findTime(String time) throws IOException {

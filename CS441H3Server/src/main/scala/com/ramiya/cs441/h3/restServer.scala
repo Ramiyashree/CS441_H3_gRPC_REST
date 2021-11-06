@@ -7,6 +7,14 @@ import com.google.gson.Gson
 import java.time.LocalTime
 import scala.collection.JavaConverters._
 
+/**
+ * REST Lambda Function responds to the request raised by the client. The timestamp and timeInterval recieved is passed to the binarySearchFunction
+ *
+ * Input is the Time Stamp
+ * Ouput is true if the TimeStamp is present in the logFile and false if the TimeStamp is not present in the Log File.
+ *
+ */
+
 class restServer extends RequestHandler[util.Map[String, String], APIGatewayProxyResponseEvent] {
 
   // Create instance of Gson for (de)serializing Java Map to JSON string
