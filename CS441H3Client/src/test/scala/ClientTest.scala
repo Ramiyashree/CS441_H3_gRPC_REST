@@ -31,7 +31,7 @@ class ClientTest extends AnyFlatSpec with Matchers {
 
   it should "Match Input Time" in {
     val inputTime: String = config.getString("clientConfig.inputTime")
-    assert(inputTime.equals("17:12:28.745"))
+    assert(inputTime.equals("17:12:58.745"))
   }
 
   it should "Match Time Pattern" in {
