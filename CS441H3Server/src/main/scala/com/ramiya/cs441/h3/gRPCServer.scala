@@ -50,7 +50,7 @@ class gRPCServer extends RequestHandler[APIGatewayProxyRequestEvent, APIGatewayP
   private class LogTimeSearch extends logTimeFunctionGrpc.logTimeFunction{
     override def timeFunction(request: TimeData): Future[TimeResponse] = {
       val time = request.time
-      val result1 = BinarySearch.findTime(time)
+      val result1 = BinarySearchGrpc.findTime(time)
       val reply = TimeResponse(result1)
       Future.successful(reply)
     }

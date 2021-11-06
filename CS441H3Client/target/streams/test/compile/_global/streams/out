@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\src\test\scala\ClientTest.scala:29:12: not found: value restEndpoint[0m
-[0m[[0m[31merror[0m] [0m[0m    assert(restEndpoint.equals("17:12:28.745"))[0m
-[0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\19405\Downloads\CS441_H3_gRPC_REST\CS441H3Client\src\test\scala\ClientTest.scala:34:12: not found: value restEndpoint[0m
-[0m[[0m[31merror[0m] [0m[0m    assert(restEndpoint.equals("00:00:01.000"))[0m
-[0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

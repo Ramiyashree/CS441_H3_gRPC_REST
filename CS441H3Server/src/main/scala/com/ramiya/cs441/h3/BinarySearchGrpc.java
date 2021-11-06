@@ -16,11 +16,8 @@ import java.io.InputStreamReader;
 
 public class BinarySearchGrpc {
 
-//    public static void main(String[] args) throws Exception {
-//        findTime("17:12:58.808");
-//    }
 
-   // Function to find if a specific time is present in the log file are not
+    // Function to find if a specific time is present in the log file are not
     public static boolean findTime(String time) throws IOException {
 
         //AWS S3 Bucket Details
@@ -40,7 +37,7 @@ public class BinarySearchGrpc {
 
             fullObject = s3Client.getObject(new GetObjectRequest(bucketName, key));
 
-           InputStream inputStream = fullObject.getObjectContent();
+            InputStream inputStream = fullObject.getObjectContent();
 
             String text = new BufferedReader(
                     new InputStreamReader(inputStream, StandardCharsets.UTF_8))
@@ -99,4 +96,3 @@ public class BinarySearchGrpc {
         return found;
     }
 }
-
