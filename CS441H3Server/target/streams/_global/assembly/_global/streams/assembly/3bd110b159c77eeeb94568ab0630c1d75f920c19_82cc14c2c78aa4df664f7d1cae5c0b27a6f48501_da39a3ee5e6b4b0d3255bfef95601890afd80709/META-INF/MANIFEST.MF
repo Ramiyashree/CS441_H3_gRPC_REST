@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: util-routing
-Implementation-Version: 21.9.0
-Specification-Vendor: com.twitter
-Specification-Title: util-routing
-Implementation-Vendor-Id: com.twitter
-Specification-Version: 21.9.0
-Implementation-Vendor: com.twitter
-

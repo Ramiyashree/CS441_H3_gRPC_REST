@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: scalapb-runtime-grpc
-Implementation-Version: 0.11.3
-Specification-Vendor: com.thesamet.scalapb
-Specification-Title: scalapb-runtime-grpc
-Implementation-Vendor-Id: com.thesamet.scalapb
-Specification-Version: 0.11.3
-Implementation-Vendor: com.thesamet.scalapb
-
