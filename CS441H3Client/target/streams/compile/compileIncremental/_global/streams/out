@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 26 products, 6 sources, 10 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/target/scala-2.13/src_managed/main/h3/H3Proto.scala, ${BASE}/target/scala-2.13/src_managed/main/h3/TimeResponse.scala, ${BASE}/target/scala-2.13/src_managed/main/h3/TimeData.scala, ${BASE}/src/main/scala/com/ramiya/cs441/h3/gRPCClient.scala, ${BASE}/target/scala-2.13/src_managed/main/h3/logTimeFunctionGrpc.scala, ${BASE}/src/main/scala/com/ramiya/cs441/h3/restClient.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
